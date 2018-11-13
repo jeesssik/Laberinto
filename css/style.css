@@ -11,12 +11,18 @@ body{
 		}
 		@media screen and (min-width: 690px) {
 		  html {
-		    font-size: 3.5vw;
+		    font-size: 4.5vw;
+		  }
+		  h5{
+		  	font-size: 5.5vw;
 		  }
 		}
 		@media screen and (min-width: 1000px) {
 		  html {
-		    font-size: 22px;
+		    font-size: 20px;
+		  }
+		  h5{
+		  	font-size: 23px;
 		  }
 		}
 
@@ -49,7 +55,12 @@ aside ul{  /*centrar text segun pantalla*/
 
 article{
 	padding-top: 1em;
-	
+	color: gray;
 	
 	/*font-size: 2.5vw;*/ /*cambiar tam segun pantalla*/
+}
+
+article h5{
+	color: gray;
+	margin-top: 2rem;
 }
