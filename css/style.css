@@ -1,61 +1,79 @@
 body{
-	/*color: white;*/
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: white;
-}
+	background-image: url(../img/image.jpg);
+	background-attachment: fixed;
+   	background-position: center center;
+   	background-size: cover; 
 
-
-
+	
+	}
 		html {
 		  font-size: 16px;
 		}
 		@media screen and (min-width: 690px) {
+			
 		  html {
 		    font-size: 4.5vw;
 		  }
 		  h5{
 		  	font-size: 5.5vw;
 		  }
+
 		}
-		@media screen and (min-width: 1000px) {
-		  html {
-		    font-size: 20px;
-		  }
-		  h5{
-		  	font-size: 23px;
-		  }
+		@media screen and (min-width: 900px) {
+			html {
+			   font-size: 20px;
+			}
+			h5{
+			  font-size: 23px;
+			 }
+
+
+			aside{
+				border-right: 1px dotted lightgray;
+
+			}
+
+			.title{
+				margin-top:-229px;
+			}
+
+			.title{
+				margin-top:-229px;
+			}
+
+			
+			main{
+				margin-top: -80px;
+			}
+
 		}
-
-
-
-
-
-.title{
-	margin-top:-229px;
-}
-
 
 main{
-	margin-top: -80px;
+	
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
-aside{
+/*aside{
 	border-right: 1px dotted lightgray;
 
-}
+}*/
 
+.poster{
+	margin-top: 1em;
+}
 aside ul{  /*centrar text segun pantalla*/
 	margin-top: 1em;
 	list-style: none;
 	padding-left: 0;
+	color: #E8E4E4;
 	/*font-size: 2.5vw;*/  /*cambiar tam segun pantalla*/
 }
 
 article{
 	padding-top: 1em;
-	color: gray;
+	color: #E8E4E4;
 	
 	/*font-size: 2.5vw;*/ /*cambiar tam segun pantalla*/
 }
@@ -63,4 +81,21 @@ article{
 article h5{
 	color: gray;
 	margin-top: 2rem;
+}
+/*.carousel{
+	padding-bottom: 0.5rem;
+}*/
+.videos{
+	border-top:1px dotted lightgray;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.video_title{
+	color: #F3F1F1;
+}
+
+.watch{
+	border-top:1px dotted lightgray;
+	padding-top: 0.5rem;
 }
